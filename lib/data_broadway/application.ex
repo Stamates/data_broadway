@@ -10,6 +10,7 @@ defmodule DataBroadway.Application do
     children = [
       # Starts a worker by calling: DataBroadway.Worker.start_link(arg)
       # {DataBroadway.Worker, arg}
+      {DataBroadway.Pipeline, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

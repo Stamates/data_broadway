@@ -24,3 +24,6 @@ data_broadway-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Ignore log files
+*.log
